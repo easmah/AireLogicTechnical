@@ -1,0 +1,38 @@
+# AireLogic Technical
+This is the technical project (automated UI) for the AireLogic 'Cookie Clicker game' webpage using WebDriver in Java and Gherkin/BDD.
+
+It uses:
+
+* Java as the programming language
+* Selenium WebDriver for browser automation
+* Google Chrome as the local browser for testing
+* Apache Maven for dependency management
+* Cucumber JUnit as the core test framework
+
+
+### Prerequisites:
+* The Java Development Kit (JDK), version 8 or higher.
+* A good Java editor, such as JetBrains IntelliJ IDEA.
+* Apache Maven (typically bundled with IDEs).
+* An up-to-date version of Firefox.
+
+### How to run:
+Clone the project:
+`git clone git@github.com:easmah/AireLogicTechnical.git`
+
+#### Using IDE:
+##### Run test using Feature File
+
+1. Build the project using `mvn install`
+2. Navigate to: src/test/java/com/airelogic_tests/resources/calculate_holiday_entitlement.feature
+3. Click on Run Test button next to Feature
+
+##### Run test using Test Runner
+1. src/test/java/com/airelogic_tests/step_definitions/TestRunner.java
+2. Navigate to: src/test/java/com/airelogic_tests/step_definitions/TestRunner.java
+3. Click on Run TestRunner button
+
+### Reports
+Reports are generated when test is run using the TestRunner
+Generated report is in  src/test/reports
+
